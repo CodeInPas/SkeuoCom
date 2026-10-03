@@ -1,16 +1,16 @@
 # SkeuoSimControls
 
-**SkeuoSimControls** adalah pustaka komponen kustom untuk [Lazarus](https://www.lazarus-ide.org/) / Free Pascal yang dirancang khusus untuk membangun antarmuka pengguna (UI) bergaya *skeuomorphic* yang realistis. 
+**SkeuoSimControls** is a custom component library for [Lazarus](https://www.lazarus-ide.org/) / Free Pascal, specifically designed for building realistic, *skeuomorphic* user interfaces (UI). 
 
-Dibangun di atas engine grafis **BGRABitmap**, komponen ini menawarkan rendering anti-aliased berkualitas tinggi yang sangat cocok untuk aplikasi simulasi, dashboard avionik, panel kontrol industri, dan antarmuka perangkat lunak audio (Virtual Instruments/Mixer).
+Built on top of the **BGRABitmap** graphic engine, these components offer high-quality, anti-aliased rendering perfectly suited for simulation software, avionics dashboards, industrial control panels, and audio software interfaces (Virtual Instruments/Mixers).
 
-## 🚀 Fitur Utama
-- **20+ Komponen Interaktif**: Mulai dari sakelar sederhana hingga layar radar dan osiloskop dinamis.
-- **High-Quality Rendering**: Menggunakan BGRABitmap untuk gradien yang halus, efek bayangan (drop shadow), pendaran cahaya (glow), dan pantulan kaca (gloss).
-- **Sangat Dapat Dikustomisasi**: Ubah warna, batas nilai, dan status komponen langsung melalui *Object Inspector*.
-- **Mandiri (Self-Contained)**: Rendering digambar murni melalui kode matematika dan BGRABitmap (tanpa bergantung pada aset gambar bitmap eksternal untuk logika UI).
+## 🚀 Key Features
+- **20+ Interactive Components**: Ranging from simple switches to dynamic radar screens and oscilloscopes.
+- **High-Quality Rendering**: Utilizes BGRABitmap for smooth gradients, drop shadows, glowing elements, and glass reflections.
+- **Highly Customizable**: Tweak colors, value ranges, and component states directly through the Lazarus *Object Inspector*.
+- **Self-Contained**: Rendering is purely drawn via mathematical code and BGRABitmap (no reliance on external bitmap assets for UI logic).
 
-## 🎛️ Daftar Komponen (SkeuoSim Palette)
+## 🎛️ Component List (SkeuoSim Palette)
 - **Indicators & Displays**: `TLEDIndicator`, `TSevenSegment`, `TSimLedBarGraph`, `TSimLcdDisplay`
 - **Switches & Buttons**: `TSimToggleSwitch`, `TSimPushButton`, `TSimSafetySwitch`, `TSimMatrixPad`
 - **Dials & Sliders**: `TKnob`, `TSimFader`, `TSimSelectorSwitch`, `TSimThrottleLever`, `TSimJoystick`
@@ -18,18 +18,18 @@ Dibangun di atas engine grafis **BGRABitmap**, komponen ini menawarkan rendering
 - **Advanced Screens**: `TSimOscilloscope`, `TSimRadarScreen`
 - **Misc**: `TSimGroupBox`, `TSimAudioJack`
 
-## 📦 Prasyarat Instalasi
-1. Lazarus IDE (Terbaru direkomendasikan).
-2. Paket **BGRABitmap** (Dapat diinstal melalui *Online Package Manager* / OPM di Lazarus).
+## 📦 Prerequisites
+1. Lazarus IDE (Latest version recommended).
+2. **BGRABitmap** package (Easily installable via the *Online Package Manager* / OPM in Lazarus).
 
-## 🛠️ Cara Instalasi
-1. Clone atau *download* repositori ini.
-2. Buka Lazarus IDE.
-3. Buka menu **Package** -> **Open Package File (.lpk)**.
-4. Pilih file `SkeuoSimControls.lpk` dari folder *source*.
-5. Klik **Compile**. Pastikan kompilasi berhasil tanpa error.
-6. Klik **Install** dan biarkan Lazarus melakukan *rebuild*.
-7. Setelah Lazarus terbuka kembali, Anda akan menemukan tab baru bernama **"SkeuoSim"** di *Component Palette*.
+## 🛠️ Installation Guide
+1. Clone or download this repository.
+2. Open Lazarus IDE.
+3. Go to **Package** -> **Open Package File (.lpk)**.
+4. Select the `SkeuoSimControls.lpk` file from the `source` folder.
+5. Click **Compile**. Ensure the compilation is successful without errors.
+6. Click **Install** and allow Lazarus to rebuild.
+7. Once Lazarus restarts, you will find a new tab named **"SkeuoSim"** in your *Component Palette*.
 
-## 📜 Lisensi
-MIT Licens
+## 📜 License
+[MIT License]

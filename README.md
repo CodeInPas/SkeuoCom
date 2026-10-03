@@ -32,4 +32,4 @@ Built on top of the **BGRABitmap** graphic engine, these components offer high-q
 7. Once Lazarus restarts, you will find a new tab named **"SkeuoSim"** in your *Component Palette*.
 
 ## 📜 License
-[MIT License]
+MIT License

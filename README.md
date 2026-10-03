@@ -2,7 +2,9 @@
 
 **SkeuoSimControls** is a custom component library for [Lazarus](https://www.lazarus-ide.org/) / Free Pascal, specifically designed for building realistic, *skeuomorphic* user interfaces (UI). 
 
+
 <img width="900" height="445" alt="image" src="https://github.com/user-attachments/assets/82a78baf-9b31-448a-9b37-d1bc158bfb9d" />
+
 
 
 Built on top of the **BGRABitmap** graphic engine, these components offer high-quality, anti-aliased rendering perfectly suited for simulation software, avionics dashboards, industrial control panels, and audio software interfaces (Virtual Instruments/Mixers).

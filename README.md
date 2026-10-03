@@ -1,6 +1,6 @@
-# SkeuoSimControls
+# SkeuoCom
 
-**SkeuoSimControls** is a custom component library for [Lazarus](https://www.lazarus-ide.org/) / Free Pascal, specifically designed for building realistic, *skeuomorphic* user interfaces (UI). 
+** SkeuoCom** is a custom component library for [Lazarus](https://www.lazarus-ide.org/) / Free Pascal, specifically designed for building realistic, *skeuomorphic* user interfaces (UI). 
 
 
 <img width="900" height="445" alt="image" src="https://github.com/user-attachments/assets/82a78baf-9b31-448a-9b37-d1bc158bfb9d" />

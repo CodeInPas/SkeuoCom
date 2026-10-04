@@ -6,7 +6,12 @@ interface
 
 uses
   Classes, SysUtils,
-  SimIndicators, SimInputs, SimGauges, SimAvionics, SimContainers;
+  // Batch 1
+  SimIndicators, SimInputs, SimGauges, SimAvionics, SimContainers,
+  // Batch 2
+  SimFader, SimPushButton, SimLedBarGraph, SimOscilloscope, SimRadarScreen,
+  SimMatrixPad, SimSelectorSwitch, SimThrottleLever, SimJoystick,
+  SimLcdDisplay, SimSafetySwitch, SimAudioJack;
 
 procedure Register;
 
@@ -17,6 +22,7 @@ implementation
 procedure Register;
 begin
   RegisterComponents('SkeuoSim', [
+    // Batch 1
     TLEDIndicator,
     TSevenSegment,
     TKnob,
@@ -26,7 +32,21 @@ begin
     TVuMeter,
     TCompass,
     TAviatorGauge,
-    TSimGroupBox
+    TSimGroupBox,
+
+    // Batch 2
+    TSimFader,
+    TSimPushButton,
+    TSimLedBarGraph,
+    TSimOscilloscope,
+    TSimRadarScreen,
+    TSimMatrixPad,
+    TSimSelectorSwitch,
+    TSimThrottleLever,
+    TSimJoystick,
+    TSimLcdDisplay,
+    TSimSafetySwitch,
+    TSimAudioJack
   ]);
 end;
 
